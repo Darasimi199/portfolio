@@ -71,15 +71,15 @@ The `.nojekyll` file is included so GitHub Pages serves the static files as-is.
 
 ## Contact form
 
-The form currently posts to:
+The form posts to **Web3Forms**:
 
 ```text
-https://formsubmit.co/daraoyebisi@gmail.com
+https://api.web3forms.com/submit
 ```
 
-FormSubmit requires a one-time activation. Submit the form once after deployment, then click the activation link sent to `daraoyebisi@gmail.com`. After activation, submissions will arrive by email.
+The public access key is stored in the hidden `access_key` field in `index.html`. The free plan includes 250 submissions per month, spam protection, and a custom redirect. Successful submissions redirect to `thanks.html` and arrive at `daraoyebisi@gmail.com`.
 
-If you prefer a different service, replace the form `action` in `index.html` with a Formspree or FormSubmit endpoint.
+If you change the destination email later, create a new Web3Forms access key and replace the existing key.
 
 ## Editing project content
 
@@ -104,7 +104,7 @@ A project row can be repointed by changing its `data-project` attribute in `inde
 
 ## Still to add
 
-- FormSubmit activation (submit the form once and approve the email)
+- A test submission to confirm Web3Forms delivery
 - Any additional social links (LinkedIn, Behance, Vimeo, YouTube)
 - CV PDF and headshot, if desired
 - Any real campaign metrics, credits, or client quotes
