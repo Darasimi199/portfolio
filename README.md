@@ -104,10 +104,9 @@ A project row can be repointed by changing its `data-project` attribute in `inde
 
 ## Still to add
 
-- GitHub username and final Pages URL
+- FormSubmit activation (submit the form once and approve the email)
 - Any additional social links (LinkedIn, Behance, Vimeo, YouTube)
 - CV PDF and headshot, if desired
-- Final confirmation of the availability wording
 - Any real campaign metrics, credits, or client quotes
 - Custom domain, if one is purchased later
 

@@ -1191,17 +1191,12 @@ button {
 .case-hero {
   display: grid;
   grid-template-columns: minmax(250px, 370px) minmax(0, 1fr);
-  grid-template-areas:
-    "media head"
-    "media body";
   column-gap: clamp(2.5rem, 6vw, 7rem);
-  row-gap: clamp(1.5rem, 3vw, 2.5rem);
   align-items: start;
   padding: clamp(2rem, 5vw, 5rem) 0;
 }
 
 .case-media {
-  grid-area: media;
   position: sticky;
   top: 5rem;
   display: flex;
@@ -1209,13 +1204,15 @@ button {
   gap: 0.9rem;
 }
 
-.case-head {
-  grid-area: head;
-  padding-top: 0.2rem;
+.case-content {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  min-width: 0;
 }
 
-.case-body {
-  grid-area: body;
+.case-head {
+  padding-top: 0.2rem;
 }
 
 .case-video {
@@ -1624,17 +1621,27 @@ body.case-open {
   }
 
   .case-hero {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "head"
-      "media"
-      "body";
-    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .case-content {
+    display: contents;
+  }
+
+  .case-head {
+    order: 1;
   }
 
   .case-media {
+    order: 2;
     position: static;
     max-width: 390px;
+  }
+
+  .case-body {
+    order: 3;
   }
 
   .case-head h1 {

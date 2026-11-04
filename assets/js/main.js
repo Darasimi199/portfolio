@@ -389,33 +389,35 @@
             }
           </div>
 
-          <div class="case-head">
-            <p class="case-subtitle">${project.subtitle}</p>
-            <h1 id="case-title">${project.title}</h1>
+          <div class="case-content">
+            <div class="case-head">
+              <p class="case-subtitle">${project.subtitle}</p>
+              <h1 id="case-title">${project.title}</h1>
 
-            <dl class="case-meta">
-              ${meta
-                .map(
-                  ([label, value]) =>
-                    `<div><dt>${label}</dt><dd>${value}</dd></div>`
-                )
-                .join("")}
-            </dl>
-          </div>
+              <dl class="case-meta">
+                ${meta
+                  .map(
+                    ([label, value]) =>
+                      `<div><dt>${label}</dt><dd>${value}</dd></div>`
+                  )
+                  .join("")}
+              </dl>
+            </div>
 
-          <div class="case-body">
-            <h2>The brief</h2>
-            <p>${project.brief}</p>
+            <div class="case-body">
+              <h2>The brief</h2>
+              <p>${project.brief}</p>
 
-            <h2>The system</h2>
-            <p>${project.system}</p>
+              <h2>The system</h2>
+              <p>${project.system}</p>
 
-            <h2>Output</h2>
-            <ul class="case-list">
-              ${project.output.map((item) => `<li>${item}</li>`).join("")}
-            </ul>
+              <h2>Output</h2>
+              <ul class="case-list">
+                ${project.output.map((item) => `<li>${item}</li>`).join("")}
+              </ul>
 
-            <p class="case-credits">${project.credits}</p>
+              <p class="case-credits">${project.credits}</p>
+            </div>
           </div>
         </div>
 
