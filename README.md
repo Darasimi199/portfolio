@@ -104,7 +104,6 @@ A project row can be repointed by changing its `data-project` attribute in `inde
 
 ## Still to add
 
-- A test submission to confirm Web3Forms delivery
 - Any additional social links (LinkedIn, Behance, Vimeo, YouTube)
 - CV PDF and headshot, if desired
 - Any real campaign metrics, credits, or client quotes
