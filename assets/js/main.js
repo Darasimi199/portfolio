@@ -16,7 +16,9 @@
       brief:
         "Goodnews needed a campaign that could carry its faith-led point of view without losing the energy of streetwear. The work had to sell the product and build a world around it—not just document a drop.",
       system:
-        "I built a consistent visual language around one model, a restrained studio palette, and recurring type treatments. That system produced studio portraits, street frames, and three vertical films for organic social and paid ads.",
+        "I built a consistent visual language around a disciplined cast, a restrained studio palette, and recurring type treatments. That system produced studio portraits, street frames, and three vertical films for organic social and paid ads.",
+      result:
+        "Used across Goodnews’s social channels and in sales-focused digital ads.",
       output: ["3 vertical campaign films", "10 campaign stills"],
       credits:
         "Concept, art direction, AI image & video generation, edit — Darasimi Oyebisi.",
@@ -97,6 +99,8 @@
         "Efamol wanted to reconnect a familiar supplement with the purity of its source. The campaign had to make the product feel natural, premium, and effective in a social-first format.",
       system:
         "I developed a botanical world of sunlit fields, coastal stones, and apothecary details, then translated it into a 53-second vertical film and five product stills. The visual system kept the product at the center while giving the brand a broader origin story.",
+      result:
+        "Used across Efamol NG’s social channels to support product visibility.",
       output: ["1 vertical campaign film", "5 product stills"],
       credits:
         "Concept, art direction, AI image & video generation, edit — Darasimi Oyebisi.",
@@ -147,6 +151,8 @@
         "PharmacyOS simplifies complex distributor operations, but the product’s value was hard to explain in a static post. The brand needed motion that could make operational detail feel clear and immediate.",
       system:
         "I turned wholesale ordering, SKU parsing, and ERP syncing into a pair of vertical motion films—using a consistent blue-green visual language, simple metaphors, and direct on-screen copy.",
+      result:
+        "Used across PharmacyOS’s social channels to introduce the platform and increase visibility.",
       output: ["2 vertical motion films", "A repeatable visual system for product stories"],
       credits:
         "Concept, script, motion design, AI-assisted production — Darasimi Oyebisi.",
@@ -410,6 +416,9 @@
 
               <h2>The system</h2>
               <p>${project.system}</p>
+
+              <h2>Outcome</h2>
+              <p>${project.result}</p>
 
               <h2>Output</h2>
               <ul class="case-list">
