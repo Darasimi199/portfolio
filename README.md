@@ -16,7 +16,7 @@ A one-page portfolio for Oluwadarasimi “Darasimi” Oyebisi. Built as a static
 - Responsive layouts for desktop, tablet, and mobile
 - Keyboard-accessible dialog, skip link, reduced-motion support, alt text, and focus states
 - SEO metadata, Person structured data, social preview image, and favicon
-- Working contact form via FormSubmit with a direct email fallback
+- Working contact form via Web3Forms with a direct email fallback
 
 ## Structure
 
