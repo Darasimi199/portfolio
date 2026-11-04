@@ -1,0 +1,15 @@
+# Local tooling and original source media
+.tools/
+assets/source/
+assets/contact-sheets/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local logs and archives
+*.zip
+*.log
