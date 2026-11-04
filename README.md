@@ -2,6 +2,9 @@
 
 A one-page portfolio for Oluwadarasimi “Darasimi” Oyebisi. Built as a static site with hand-written HTML, CSS, and vanilla JavaScript — no framework and no build step.
 
+**Live site:** https://darasimi199.github.io/portfolio/  
+**Repository:** https://github.com/Darasimi199/portfolio
+
 ## What is included
 
 - One-page editorial portfolio with selected work for Goodnews, Efamol, and PharmacyOS
