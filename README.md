@@ -2,7 +2,8 @@
 
 A one-page portfolio for Oluwadarasimi “Darasimi” Oyebisi. Built as a static site with hand-written HTML, CSS, and vanilla JavaScript — no framework and no build step.
 
-**Live site:** https://darasimi199.github.io/portfolio/  
+**Live site:** https://darasimi-oyebisi.pages.dev/  
+**Backup:** https://darasimi199.github.io/portfolio/  
 **Repository:** https://github.com/Darasimi199/portfolio
 
 ## What is included
@@ -54,20 +55,21 @@ python -m http.server 8000
 
 The contact form only submits when the site is served over HTTP(S); direct file previews are for layout and interaction testing.
 
-## Deploy to GitHub Pages
+## Deployments
 
-The site is designed to deploy with no build step.
+The site is static and has no build step.
 
-1. Create a **public** GitHub repository.
-   - For a clean root URL, name it `<your-username>.github.io`.
-   - For a project URL, any repository name works; the site will live at `<username>.github.io/<repo>/`.
-2. Push the site files to the `main` branch.
-3. In the repository, go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and the root folder (`/`), then save.
-6. GitHub will publish the site at the URL shown on the Pages settings screen.
+- **Primary:** Cloudflare Pages, connected to `Darasimi199/portfolio`. Pushing to `main` deploys automatically to https://darasimi-oyebisi.pages.dev/.
+- **Backup:** GitHub Pages, deployed from `main` at https://darasimi199.github.io/portfolio/.
 
-The `.nojekyll` file is included so GitHub Pages serves the static files as-is.
+Cloudflare Pages settings:
+
+- Framework preset: None
+- Build command: blank
+- Build output directory: `/`
+- Production branch: `main`
+
+The GitHub Pages backup uses **Deploy from a branch → `main` → `/`**. The `.nojekyll` file is included so GitHub Pages serves the static files as-is.
 
 ## Contact form
 

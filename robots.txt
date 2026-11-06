@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://darasimi199.github.io/portfolio/sitemap.xml
+Sitemap: https://darasimi-oyebisi.pages.dev/sitemap.xml
