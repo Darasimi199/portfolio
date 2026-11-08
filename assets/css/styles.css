@@ -363,7 +363,6 @@ button {
   line-height: 1.35;
   letter-spacing: -0.022em;
   text-wrap: pretty;
-  animation: fade-up 1s var(--ease) 0.18s both;
 }
 
 .hero-scroll {
@@ -381,7 +380,6 @@ button {
   text-transform: uppercase;
   color: var(--muted);
   transition: color 0.3s ease;
-  animation: fade-up 1s var(--ease) 0.3s both;
 }
 
 .hero-scroll:hover,
@@ -443,8 +441,7 @@ button {
 }
 
 .hero__top,
-.hero__title,
-.hero__bottom {
+.hero__title {
   opacity: 0;
 }
 
