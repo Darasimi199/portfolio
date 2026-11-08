@@ -18,6 +18,12 @@ A one-page portfolio for Oluwadarasimi “Darasimi” Oyebisi. Built as a static
 - Keyboard-accessible dialog, skip link, reduced-motion support, alt text, and focus states
 - SEO metadata, Person structured data, social preview image, and favicon
 - Working contact form via Web3Forms with a direct email fallback
+- One-page A4 resume linked from the About and Contact sections
+
+## Resume
+
+- `resume.pdf` — the downloadable one-page PDF
+- `resume.html` — the print-ready A4 source with a Print / Save PDF button
 
 ## Structure
 

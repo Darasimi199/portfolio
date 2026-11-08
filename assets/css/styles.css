@@ -809,6 +809,32 @@ button {
   color: var(--accent);
 }
 
+.resume-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--ink);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.07em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--ink);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.resume-link span {
+  color: var(--accent);
+}
+
+.resume-link:hover,
+.resume-link:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .system {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
